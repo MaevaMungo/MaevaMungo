@@ -1,0 +1,107 @@
+H1{
+    color: rgb(17, 17, 17);
+    font-family: 'Permanent Marker', sans-serif;
+}
+
+h2{
+    text-align: center; 
+}
+
+
+
+.rectangle {
+    background-color: #ED6996; /* Couleur de fond */
+    color: #000; /* Couleur du texte : noir */
+    width: 100px; /* Largeur du rectangle */
+    height: 50px; /* Hauteur du rectangle */
+    display: flex; /* Active Flexbox pour centrer le texte */
+    align-items: center; /* Centre verticalement le texte */
+    justify-content: center; /* Centre horizontalement le texte */
+    text-align: center; /* Aligne le texte au centre */
+    margin: 20px auto; /* Centre le rectangle horizontalement et ajoute un espace vertical */
+    border-radius: 8px; /* Coins arrondis (optionnel) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optionnel : ajoute une ombre */
+    font-family: Arial, sans-serif; /* Typographie */
+    font-size: 24px; /* Taille du texte */
+    font-weight: bold; /* Rendre le texte plus visible */
+}
+
+h2, h3, h4,p {
+    font-family: 'Roboto Flex', sans-serif; /* Applique Roboto Flex */
+    font-weight: 400; /* Épaisseur normale */
+    margin: 10px 0; /* Ajoute un espacement vertical standard */
+    text-align: center; /* Centre les titres */
+}
+
+header{
+    
+    text-align: center;
+    
+}
+body {
+    background-color: #FFFCFB; /* Arrière-plan orange */
+
+    margin: 0; /* Supprime les marges par défaut */
+    margin: 20px;
+}
+
+article {
+    padding: 20px; /* Ajoute de l'espace à l'intérieur de l'article */
+    margin: 20px auto; /* Centrer et ajouter de l'espace autour */
+    max-width: 800px; /* Limite la largeur de l'article */
+    text-align: center; /* Centre le texte */
+}
+
+
+footer{
+   
+    text-align: center;
+}
+img.logo{
+    height: 150px;
+        margin-top: 20px; 
+    
+}
+.miniature {
+    width: 300px; /* Largeur fixe (ajuste selon tes besoins) */
+    height: auto; /* Conserve les proportions de l'image */
+    display: block; /* Assure un bon comportement pour le centrage */
+    margin: 0 auto; /* Centre l'image horizontalement */th: 345px;
+}
+
+article {
+    text-align: center; /* Centre tout le texte à l'intérieur de l'article */
+}
+.mosaique {
+    display: flex; /* Active Flexbox */
+    gap: 20px; /* Espace entre les images */
+    justify-content: center; /* Centre les images horizontalement */
+    align-items: center; /* Aligne les images verticalement */
+    margin: 20px auto; /* Centre la grille dans la page */
+}
+
+
+.mosaique div {
+    text-align: center; /* Centre le texte sous les images */
+     }
+
+.media-section {
+        display: flex; /* Place les éléments côte à côte */
+        justify-content: center; /* Centre horizontalement */
+        align-items: center; /* Aligne verticalement */
+        gap: 20px; /* Espace de 20px entre la vidéo et l'image */
+        margin: 20px auto; /* Centre la section sur la page */
+    }
+    
+    .media-section video,
+    .media-section .media-image {
+        width: 400px; /* Largeur définie à 400px */
+        height: auto; /* Préserve les proportions */
+        gap: 40px;
+        object-fit: cover; /* Remplit bien l'espace sans déformer */
+        border-radius: 8px; /* Coins arrondis (optionnel) */
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Légère ombre esthétique */
+    }
+
+  
+    
